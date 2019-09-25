@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guanghe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "guanghe eslint",
   "main": "index.js",
   "scripts": {
