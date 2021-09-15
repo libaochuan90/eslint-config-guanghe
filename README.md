@@ -967,28 +967,6 @@
     // good
     const totalScore = String(this.reviewScore);
     ```
-- Numbers: 用 `Number` 做类型转换，`parseInt`转换string常需要带上基数。
-    ```javascript
-    const inputValue = '4';
-
-    // bad
-    const val = new Number(inputValue);
-
-    // bad
-    const val = +inputValue;
-
-    // bad
-    const val = inputValue >> 0;
-
-    // bad
-    const val = parseInt(inputValue);
-
-    // good
-    const val = Number(inputValue);
-
-    // good
-    const val = parseInt(inputValue, 10);
-    ```
 - 布尔
     ```javascript
     const age = 0;

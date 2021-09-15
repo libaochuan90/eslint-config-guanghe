@@ -381,9 +381,6 @@ module.exports = {
       "no-new-wrappers": [
         "error"
       ],
-      "radix": [
-        "error"
-      ],
       "id-length": [
         "error",
         {
